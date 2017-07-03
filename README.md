@@ -26,9 +26,9 @@ $: sudo cp tpad.py /usr/local/bin/tpad
 ```
 Make it executable:
 ```
-$: sudo chmod a+x tpad
+$: sudo chmod a+x /usr/local/bin/tpad
 ```
 Finally, make sure tpad will be executable by your user, rather then only root:
 ```
-$: sudo chown <user>: tpad
+$: sudo chown <user>: /usr/local/bin/tpad
 ```
