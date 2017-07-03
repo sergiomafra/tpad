@@ -1,5 +1,12 @@
 # tpad
-tpad is a simple script to turn off and on the touchpad. It's for personal use and probably do not function for all models.
+tpad is a simple script to turn off and on the touchpad. It's for personal use and probably do not function for all models. It basically finds out the ID of the touchpad with the command:
+```
+$: xinput list | grep -i touchpad
+```
+and disables or enables it:
+```
+$: xinput --*<enable|disable>* *<id>*
+```
 
 ### Usage
 To disable touchpad
