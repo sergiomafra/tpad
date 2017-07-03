@@ -11,11 +11,11 @@ $: xinput --<enable|disable> <id>
 ### Usage
 To disable touchpad
 ```
-tpad -d
+$: tpad -d
 ```
 To enable touchpad
 ```
-tpad -e
+$: tpad -e
 ```
 
 ### Installation
