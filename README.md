@@ -5,7 +5,7 @@ $: xinput list | grep -i touchpad
 ```
 and disables or enables it:
 ```
-$: xinput --*<enable|disable>* *<id>*
+$: xinput --<enable|disable> <id>
 ```
 
 ### Usage
